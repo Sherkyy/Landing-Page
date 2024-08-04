@@ -1,0 +1,221 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.headermainsection {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 16px 450px;
+    background-color: #1F2937;
+}
+
+.headertopbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headernav {
+    display: flex;
+}
+
+.headernav ul {
+    display: flex;
+    gap: 16px;
+}
+
+.headertopbar a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.headertopbar h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.contentmain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    gap: 8px;
+}
+
+.contentmain h2 {
+    color: white;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.contentmain p {
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.contentimageplaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 108px 48px;
+    margin: 96px 0px 96px 96px;
+    background-color: gray;
+}
+
+.contentimageplaceholder p{
+    color: white;
+    font-size: 20px;
+}
+
+.headerbutton {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+    width: 108px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ .randominfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 264px 64px 264px;
+ }
+
+ .randominfo h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+ }
+
+ .imageboxs {
+    display: flex;
+    gap: 48px
+ }
+
+ .imagebox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+
+ .image {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+ }
+
+ .imagebox p {
+    color: gray;
+    font-size: 24px;
+    width: 200px;
+    text-align: center;
+ }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 128px 264px;
+    background-color: #E5E7EB;
+}
+
+.actualquote {
+    font-style: italic;
+    font-size: 42px;
+    color: gray;
+    width: 800px;
+}
+
+.thor {
+    color: #1F2937;
+    font-weight: bold;
+    width: 650px;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 264px;
+}
+
+.itstime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 48px 96px;
+}
+
+.calltoactiontext h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.calltoaction p {
+    color: white;
+    font-size: 18px;
+}
+
+.lastbutton {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.pagefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    
+}
+
+.pagefooter p {
+    color: white;
+    font-size: 18px;
+    padding: 40px 0px;
+}
